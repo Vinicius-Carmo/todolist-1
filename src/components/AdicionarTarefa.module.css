@@ -1,0 +1,32 @@
+.container_add{
+    padding-bottom: 1em;
+    border-top: 1px solid #000;
+}
+h3{
+    margin: auto;
+    margin: 12px 0 7px 0;
+}
+input, button{
+    padding: 5px;
+    border: 1px solid #000;
+}
+button{
+    margin-left: 10px;
+    border-style: none;
+    border-radius: 3px;
+    padding: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    opacity: 1;
+    color:#000000;
+    border-style:solid;
+    border-color:#4F4F4F;
+    opacity: 0.9;
+}
+button:hover{
+    background-color: #00BFFF;
+    opacity: 1;
+}
+input{
+    width: 280px;
+}

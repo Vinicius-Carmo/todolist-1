@@ -1,0 +1,41 @@
+.bloco_tarefa{
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-bottom: 2em;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:#4F4F4F;
+}
+.conteudo{
+    max-width: 200px;
+}
+.botoes{
+    margin-top: 11px;
+}
+.botoes button {     
+    margin: 0 3px;
+    border-style: none;
+    border-radius: 3px;
+    padding: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    opacity: 1;
+    color:#000000;
+    border-style:solid;
+    border-color:#4F4F4F;
+    opacity: 0.9;
+}
+.excluir:hover{
+    background-color:#fc5639;
+    opacity: 1;
+}
+.completar:hover{
+    background-color: #7FFF00;  
+    opacity: 1; 
+}
+
+
